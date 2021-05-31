@@ -39,6 +39,7 @@ packages=(
   "clementtsang/bottom/bottom"
   "lsd"
   "procs"
+  "gping"
   "starship"
   "zoxide"
   "muesli/tap/duf"

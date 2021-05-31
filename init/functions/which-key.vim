@@ -89,7 +89,8 @@ let g:which_key_map.l = {
 let g:which_key_map.f = {
       \ 'name' : '+searching' ,
       \ 's' : [':CocList symbols', 'symbols'],
-      \ 'f' : [':CocList grep'   , 'grep text']
+      \ 'f' : [':CocList grep'   , 'grep text'],
+      \ 'r' : [':%s/from/to/g'   , 'find and replace']
       \ }
 
 " t is for terminal

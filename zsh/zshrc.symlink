@@ -143,6 +143,11 @@ if [ "$(command -v duf)" ]; then
 
   alias df="duf"
 fi
+if [ "$(command -v gping)" ]; then
+  unalias -m "ping"
+
+  alias ping="gping"
+fi
 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
